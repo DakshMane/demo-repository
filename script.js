@@ -8,4 +8,7 @@ function addTask() {
 
   document.getElementById("taskList").appendChild(li);
   input.value = "";
+  // first commit
+  console.log(`Task added: ${taskText}`);
+  
 }
